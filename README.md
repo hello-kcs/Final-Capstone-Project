@@ -13,17 +13,21 @@ This project was developed as part of the Summer Analytics 2025 Capstone Challen
 - **Google Colab** – Development environment
 - **Git/GitHub** – Version control and collaboration
 
-## 🧩 Architecture Diagram
+##  Architecture Diagram (Text Version)
 
-```mermaid
-graph TD
-  A[Raw Parking Data CSV] --> B[Data Cleaning and Preprocessing]
-  B --> C[Feature Engineering]
-  C --> D[Model Selection]
-  D --> E[XGBoost Regressor]
-  E --> F[Model Evaluation]
-  F --> G[Hourly Price Prediction]
-  G --> H[Result Visualization and Export]
+- **Raw Parking Data (CSV)**  
+  ⬇  
+- **Data Cleaning and Preprocessing**  
+  ⬇  
+- **Feature Engineering**  
+  ⬇  
+- **Model Selection (XGBoost Regressor)**  
+  ⬇  
+- **Model Evaluation (R² Score, RMSE)**  
+  ⬇  
+- **Hourly Price Prediction**  
+  ⬇  
+- **Result Visualization and Export**
 
 🔍 Architecture and Workflow
 Data Loading and Cleaning:
