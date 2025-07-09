@@ -51,31 +51,10 @@ Output:
 Final predictions were generated for hourly pricing and visualized using line plots for select parking lots.
 
 📄 Documentation
-notebook.ipynb: Jupyter Notebook containing the full workflow
-
-data/: Folder containing the dataset
-
+code.ipynb: Jupyter Notebook containing the full workflow
+dataset.csv: dataset provided
 README.md: Project overview and documentation
+problem statement provided
 
-architecture.png: (Optional) Exported Mermaid diagram
 
-Report.pdf: (Optional) Final report submitted for evaluation
 
-✅ Ensure all files run without errors before pushing. Test the notebook from top to bottom using Restart & Run All.
-
-🔓 Repository Access
-The repository should be set to Public
-
-Alternatively, provide access to reviewers using their GitHub usernames
-
-markdown
-Copy
-Edit
-
-Let me know if you’d like help:
-- Writing a 1-page PDF report for upload
-- Exporting the Mermaid diagram to `.png`
-- Cleaning and structuring your Colab notebook into `.py` or `.ipynb`
-- Creating a `.gitignore` or `requirements.txt` for upload
-
-Just share the GitHub repo name or folder structure if you want help organizing it.
