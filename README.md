@@ -13,7 +13,7 @@ This project was developed as part of the Summer Analytics 2025 Capstone Challen
 - **Google Colab** – Development environment
 - **Git/GitHub** – Version control and collaboration
 
-##  Architecture Diagram
+## 🧩 Architecture Diagram
 
 ```mermaid
 graph TD
