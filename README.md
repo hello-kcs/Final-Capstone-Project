@@ -17,13 +17,13 @@ This project was developed as part of the Summer Analytics 2025 Capstone Challen
 
 ```mermaid
 graph TD
-  A[Raw Parking Data (CSV)] --> B[Data Cleaning & Preprocessing]
+  A[Raw Parking Data CSV] --> B[Data Cleaning and Preprocessing]
   B --> C[Feature Engineering]
   C --> D[Model Selection]
   D --> E[XGBoost Regressor]
-  E --> F[Model Evaluation (R², RMSE)]
+  E --> F[Model Evaluation]
   F --> G[Hourly Price Prediction]
-  G --> H[Result Visualization & Submission]
+  G --> H[Result Visualization and Export]
 
 🔍 Architecture and Workflow
 Data Loading and Cleaning:
