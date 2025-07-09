@@ -17,34 +17,30 @@ This project was developed as part of the Summer Analytics 2025 Capstone Challen
 
 ```mermaid
 graph TD
-    A[Raw Parking Data (CSV)] --> B[Data Cleaning & Preprocessing]
-    B --> C[Feature Engineering]
-    C --> D[Model Selection]
-    D --> E[XGBoost Regressor]
-    E --> F[Model Evaluation (R^2, RMSE)]
-    F --> G[Hourly Price Prediction]
-    G --> H[Result Visualization & Submission]
+  A[Raw Parking Data (CSV)] --> B[Data Cleaning & Preprocessing]
+  B --> C[Feature Engineering]
+  C --> D[Model Selection]
+  D --> E[XGBoost Regressor]
+  E --> F[Model Evaluation (R², RMSE)]
+  F --> G[Hourly Price Prediction]
+  G --> H[Result Visualization & Submission]
+
 🔍 Architecture and Workflow
 Data Loading and Cleaning:
 The dataset was loaded from CSV files, cleaned for null values, incorrect entries, and formatted for consistency.
 
 Feature Engineering:
 We extracted and engineered relevant features such as:
-
 Day of week and hour of day
-
 Parking duration and occupancy
-
 Historical pricing trends
-
 Model Building:
+
 After trying linear models and tree-based methods, XGBoost Regressor gave the best performance with optimized hyperparameters.
 
 Evaluation Metrics:
 The model was evaluated using:
-
 R-squared (R²)
-
 Root Mean Square Error (RMSE)
 
 Output:
