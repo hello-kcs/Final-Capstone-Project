@@ -50,11 +50,11 @@ Root Mean Square Error (RMSE)
 Output:
 Final predictions were generated for hourly pricing and visualized using line plots for select parking lots.
 
-📄 Documentation
-code.ipynb: Jupyter Notebook containing the full workflow
-dataset.csv: Dataset provided
-README.md: Project overview and documentation
-problem_statement.pdf: Problem statement provided
+📄 Documentation  
+- `code.ipynb`: Jupyter Notebook containing the full workflow  
+- `dataset.csv`: Dataset provided  
+- `README.md`: Project overview and documentation  
+- `problem_statement.pdf`: Problem statement provided
 
 
 
