@@ -52,9 +52,11 @@ Final predictions were generated for hourly pricing and visualized using line pl
 
 📄 Documentation
 code.ipynb: Jupyter Notebook containing the full workflow
-dataset.csv: dataset provided
+dataset.csv: Dataset provided
 README.md: Project overview and documentation
-problem statement provided
+problem_statement.pdf: Problem statement provided
+
+
 
 
 
